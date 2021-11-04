@@ -7,3 +7,70 @@ a- Para actualizar el repositorio al estado del repo original se utiliza el Fetc
 b- Si, se puede realizar pero puede llegar a realizar conflictos de fusion.
 c- Si, GAMMA puede actualizar su repositorio al estado de ALFA
 d- No, los datos que estaban en mi repositorio (repositorio original) no se pierde si quiero actualizar, en caso de haber multiples cambios puedo hacer un merge y elegir manualmente con que modificaciones deseo quedarme
+e-    GAMMA Prutscher Matias: 
+	1) fork del repositorio de beta.
+	2) mkdir tp2
+	3) cp tp2
+	4) git clone git@github.com:MatiasPrustcher/TP_SO_i2_Equipo109.git
+	5) cp TP_SO_i2_Equipo109
+	6) echo "nombre" >> datos.txt && ip route get 1.2.3.4 | awk '{print$7}' >>
+	datos.txt && date "+%T" >> fork.txt 
+	7) git status
+	8) git add .
+	9) git commit -m "Actualizacion de archivo fork"
+	10) git status
+	11) git push
+	12) Desde la pagina de GitHub solicito el fetch and merge 
+	13) git pull 
+	14) vi respuesta_I2_Equipo109
+	15) git status
+	16) git add .
+	17) git commit -m "se completa las respuestas GAMMA"
+	18) git status
+	19) git push
+
+BETA Federico Dacal
+1) git clone https://github.com/federicodacal/TP_SO_i2_Equipo109
+	touch fork.txt
+	git status
+	git add .
+	git commit -m
+	git push origin main
+2) touch NuevoDato.txt
+	git add .
+	git git commit -m 
+	git push
+	git pull https://github.com/FrancoDiSanto/TP_SO_i2_Equipo109.git main
+	git status 
+	git add .
+	git commit
+	git push origin main
+	git pull https://hithub.com/MatiasPrutscher/TP_SO_i2_Equipo109.git main
+	git status
+	git merge -help
+	vim fork.txt (Solucionar merge manualmente)
+	git add .
+	git commit -m
+	git push origin main
+	vim respuesta_I2_Equipo109
+	git add .
+	git commit -m 
+	git push origin main
+	
+
+
+ALFA Franco Di Santo
+	3)fork del repositori
+	git clone https://github.com/FrancoDiSanto/TP_SO_i2_Equipo109
+	echo "Franco Di Santo" >> fork.txt
+	hostname -I >> fork.txt
+	date >> fork.txt
+	5) git remote add upstream https://federicodacal/TP_SO_i2_Equipo109
+	git fetch upstream
+	git checkout master
+	git rebase upstream/master
+	7) vim respuesta_I2_Equipo109
+		git add .
+		git status
+		git commit -m "respuesta e subida"
+		git push
