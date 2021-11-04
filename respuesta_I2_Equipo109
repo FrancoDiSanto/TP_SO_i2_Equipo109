@@ -1,8 +1,9 @@
-Franco Di Santo
-Federico Dacal
-Matias Prutscher
-
+Di Santo Franco
+Dacal Federico
+Prutscher Matias
 Respuestas:
 
 a- Para actualizar el repositorio al estado del repo original se utiliza el Fetch and merge, seguido de un git pull para actualizar el repositorio local.
 b- Si, se puede realizar pero puede llegar a realizar conflictos de fusion.
+c- Si, GAMMA puede actualizar su repositorio al estado de ALFA
+d- No, los datos que estaban en mi repositorio (repositorio original) no se pierde si quiero actualizar, en caso de haber multiples cambios puedo hacer un merge y elegir manualmente con que modificaciones deseo quedarme
