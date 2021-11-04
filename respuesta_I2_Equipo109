@@ -54,6 +54,7 @@ BETA Federico Dacal
 	git push origin main
 	
 
+
 ALFA Franco Di Santo
 	3)fork del repositori
 	git clone https://github.com/FrancoDiSanto/TP_SO_i2_Equipo109
@@ -70,4 +71,8 @@ ALFA Franco Di Santo
 		git commit -m "respuesta e subida"
 		git push
 	 
+
+
+
+
 
